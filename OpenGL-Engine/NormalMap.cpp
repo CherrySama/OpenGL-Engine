@@ -179,10 +179,11 @@ int main()
         float currentFrame = static_cast<float>(glfwGetTime());
         deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
-
+        
         camera->mouseMovement();
         camera->fly(deltaTime);
 
+        // change the light's position
         lightPos.x = static_cast<float>(std::sin(glfwGetTime() * 0.5));
         lightPos.y = static_cast<float>(std::sin(glfwGetTime() * 0.5));
 
@@ -209,11 +210,11 @@ int main()
         RenderQuad();
         
 		// render light source (simply re-renders a smaller plane at the light's position for debugging/visualization)
-		model = glm::mat4();
-		model = glm::translate(model, lightPos);
-		model = glm::scale(model, glm::vec3(0.1f));
-        normalMapWall.setMat4("model", model);
-        RenderQuad();
+		//model = glm::mat4();
+		//model = glm::translate(model, lightPos);
+		//model = glm::scale(model, glm::vec3(0.1f));
+        //normalMapWall.setMat4("model", model);
+        //RenderQuad();
 
 		glfwSwapBuffers(window);
 		glfwPollEvents();
