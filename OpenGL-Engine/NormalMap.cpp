@@ -14,7 +14,7 @@ GLFWwindow* window;
 glm::vec2 windowSize;
 const bool isFullScreen = false;
 // camera
-std::shared_ptr<Camera> camera = std::make_shared<Camera>(glm::vec3(0.f, 0.f, 0.f), glm::vec3(0, 1.0f, 0));
+std::shared_ptr<Camera> camera = std::make_shared<Camera>(glm::vec3(0.f, 0.f, 5.f), glm::vec3(0, 1.0f, 0));
 // quad stuff
 unsigned int quadVAO = 0;
 unsigned int quadVBO;
@@ -182,6 +182,9 @@ int main()
 
         camera->mouseMovement();
         camera->fly(deltaTime);
+
+        lightPos.x = static_cast<float>(std::sin(glfwGetTime() * 0.5));
+        lightPos.y = static_cast<float>(std::sin(glfwGetTime() * 0.5));
 
         // clear the buff
         glClearColor(0.1f, 0.1f, 0.1f, 1.0f);

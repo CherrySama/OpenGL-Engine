@@ -7,3 +7,5 @@
 *.db
 *.vsidx
 *.vsidx
+.vs/OpenGL-Engine/v17/.suo
+*.db
