@@ -1,0 +1,25 @@
+﻿  glad.c
+C:\MyToolKit\glad\src\glad.c(783,39): error C2061: 语法错误: 标识符“glad_glMultiDrawArraysIndirectCount”
+C:\MyToolKit\glad\src\glad.c(783,39): error C2059: 语法错误:“;”
+C:\MyToolKit\glad\src\glad.c(783,75): error C2513: “ ”: 在“=”前没有声明变量
+C:\MyToolKit\glad\src\glad.c(787,41): error C2061: 语法错误: 标识符“glad_glMultiDrawElementsIndirectCount”
+C:\MyToolKit\glad\src\glad.c(787,41): error C2059: 语法错误:“;”
+C:\MyToolKit\glad\src\glad.c(787,79): error C2513: “ ”: 在“=”前没有声明变量
+C:\MyToolKit\glad\src\glad.c(876,29): error C2061: 语法错误: 标识符“glad_glPolygonOffsetClamp”
+C:\MyToolKit\glad\src\glad.c(876,29): error C2059: 语法错误:“;”
+C:\MyToolKit\glad\src\glad.c(876,55): error C2513: “ ”: 在“=”前没有声明变量
+C:\MyToolKit\glad\src\glad.c(1024,27): error C2061: 语法错误: 标识符“glad_glSpecializeShader”
+C:\MyToolKit\glad\src\glad.c(1024,27): error C2059: 语法错误:“;”
+C:\MyToolKit\glad\src\glad.c(1024,51): error C2513: “ ”: 在“=”前没有声明变量
+C:\MyToolKit\glad\src\glad.c(2430,26): error C2065: “glad_glSpecializeShader”: 未声明的标识符
+C:\MyToolKit\glad\src\glad.c(2430,54): error C2065: “PFNGLSPECIALIZESHADERPROC”: 未声明的标识符
+C:\MyToolKit\glad\src\glad.c(2430,55): error C2146: 语法错误: 缺少“;”(在标识符“load”的前面)
+C:\MyToolKit\glad\src\glad.c(2431,38): error C2065: “glad_glMultiDrawArraysIndirectCount”: 未声明的标识符
+C:\MyToolKit\glad\src\glad.c(2431,78): error C2065: “PFNGLMULTIDRAWARRAYSINDIRECTCOUNTPROC”: 未声明的标识符
+C:\MyToolKit\glad\src\glad.c(2431,79): error C2146: 语法错误: 缺少“;”(在标识符“load”的前面)
+C:\MyToolKit\glad\src\glad.c(2432,40): error C2065: “glad_glMultiDrawElementsIndirectCount”: 未声明的标识符
+C:\MyToolKit\glad\src\glad.c(2432,82): error C2065: “PFNGLMULTIDRAWELEMENTSINDIRECTCOUNTPROC”: 未声明的标识符
+C:\MyToolKit\glad\src\glad.c(2432,83): error C2146: 语法错误: 缺少“;”(在标识符“load”的前面)
+C:\MyToolKit\glad\src\glad.c(2433,28): error C2065: “glad_glPolygonOffsetClamp”: 未声明的标识符
+C:\MyToolKit\glad\src\glad.c(2433,58): error C2065: “PFNGLPOLYGONOFFSETCLAMPPROC”: 未声明的标识符
+C:\MyToolKit\glad\src\glad.c(2433,59): error C2146: 语法错误: 缺少“;”(在标识符“load”的前面)
