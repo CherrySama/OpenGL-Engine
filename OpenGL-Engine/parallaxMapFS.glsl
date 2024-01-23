@@ -54,7 +54,7 @@ vec2 steepParallaxMapping(vec2 texCoords, vec3 viewDir)
     return currentTexCoords;
 }// 由于采样基于有限的样本数量，我们会遇到锯齿效果以及图层之间有明显的断层
 
-// 3.
+// 3.不再用触碰的第一个深度层的纹理坐标，而是在触碰之前和之后，在深度层之间进行线性插值
 vec2 parallaxOcclusionMapping(vec2 texCoords, vec3 viewDir)
 { 
     // number of depth layers
@@ -95,7 +95,7 @@ vec2 parallaxOcclusionMapping(vec2 texCoords, vec3 viewDir)
     vec2 finalTexCoords = prevTexCoords * weight + currentTexCoords * (1.0 - weight);
 
     return finalTexCoords;
-}
+}// 只有放得非常大或者观察角度特别陡时才会看到轻微的不真实和锯齿的情况
 
 void main()
 {           
