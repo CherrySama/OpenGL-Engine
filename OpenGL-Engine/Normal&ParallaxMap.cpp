@@ -160,15 +160,24 @@ int main()
 
     // load shader
     Shader normalMapWall("NormalMapVS.glsl", "NormalMapFS.glsl");
+    Shader parallaxMapWall("parallaxMapVS.glsl", "parallaxMapFS.glsl");
 
     // load texture
-    unsigned int diffuseMap = loadTexture("resources/brickwall.jpg");
-    unsigned int normalMap = loadTexture("resources/brickwall_normal.jpg");
-    
+    unsigned int diffuseNormalMap = loadTexture("resources/brickwall.jpg");
+    unsigned int normalNormalMap = loadTexture("resources/brickwall_normal.jpg");
+    unsigned int diffuseParallaxMap = loadTexture("resources/bricks2.jpg");
+    unsigned int normalParallaxMap = loadTexture("resources/bricks2_normal.jpg");
+    unsigned int heightParallaxMap = loadTexture("resources/bricks2_disp.jpg");
+
     normalMapWall.use();
     normalMapWall.setInt("diffuseMap", 0);
     normalMapWall.setInt("normalMap", 1);
-    
+
+    parallaxMapWall.use();
+    parallaxMapWall.setInt("diffuseMap", 0);
+	parallaxMapWall.setInt("normalMap", 1);
+	parallaxMapWall.setInt("depthMap", 2);
+
     // 适应电脑不同渲染的速度以达到camera移动速度较平衡
     float deltaTime = 0.0f;
     float lastFrame = 0.0f;
@@ -204,9 +213,9 @@ int main()
         normalMapWall.setVec3("viewPos", camera->position);
         normalMapWall.setVec3("lightPos", lightPos);
         glActiveTexture(GL_TEXTURE0);
-        glBindTexture(GL_TEXTURE_2D, diffuseMap);
+        glBindTexture(GL_TEXTURE_2D, diffuseNormalMap);
         glActiveTexture(GL_TEXTURE1);
-        glBindTexture(GL_TEXTURE_2D, normalMap);
+        glBindTexture(GL_TEXTURE_2D, normalNormalMap);
         RenderQuad();
         
 		// render light source (simply re-renders a smaller plane at the light's position for debugging/visualization)
