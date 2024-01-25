@@ -45,7 +45,7 @@
     <ClCompile Include="PointLightShadow.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="NormalMap.cpp">
+    <ClCompile Include="Normal&amp;ParallaxMap.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -149,5 +149,7 @@
     <None Include="pointShadowFS.glsl" />
     <None Include="NormalMapVS.glsl" />
     <None Include="NormalMapFS.glsl" />
+    <None Include="parallaxMapVS.glsl" />
+    <None Include="parallaxMapFS.glsl" />
   </ItemGroup>
 </Project>

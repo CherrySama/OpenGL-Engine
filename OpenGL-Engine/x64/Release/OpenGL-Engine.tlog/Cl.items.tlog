@@ -2,6 +2,6 @@ C:\MyToolKit\glad\src\glad.c;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\gl
 E:\myObj\OpenGL-Engine\OpenGL-Engine\Camera.cpp;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\Camera.obj
 E:\myObj\OpenGL-Engine\OpenGL-Engine\Mesh.cpp;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\Mesh.obj
 E:\myObj\OpenGL-Engine\OpenGL-Engine\Model.cpp;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\Model.obj
-E:\myObj\OpenGL-Engine\OpenGL-Engine\NormalMap.cpp;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\NormalMap.obj
+E:\myObj\OpenGL-Engine\OpenGL-Engine\Normal&ParallaxMap.cpp;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\Normal&ParallaxMap.obj
 E:\myObj\OpenGL-Engine\OpenGL-Engine\Player.cpp;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\Player.obj
 E:\myObj\OpenGL-Engine\OpenGL-Engine\Shader.cpp;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\Shader.obj

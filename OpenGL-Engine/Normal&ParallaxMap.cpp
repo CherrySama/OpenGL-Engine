@@ -14,12 +14,61 @@ GLFWwindow* window;
 glm::vec2 windowSize;
 const bool isFullScreen = false;
 // camera
-std::shared_ptr<Camera> camera = std::make_shared<Camera>(glm::vec3(0.f, 0.f, 5.f), glm::vec3(0, 1.0f, 0));
+std::shared_ptr<Camera> camera = std::make_shared<Camera>(glm::vec3(0.f, 0.f, 3.f), glm::vec3(0, 1.0f, 0));
 // quad stuff
 unsigned int quadVAO = 0;
 unsigned int quadVBO;
 // Light position
 glm::vec3 lightPos(0.5f, 0.0f, 0.3f);
+// parallax map configure
+float heightScale = 0.1f;
+
+// light cube data
+float vertices[] = {
+	//position             //normal             //TexCoord 
+	-0.5f, -0.5f, -0.5f,   0.0f,  0.0f, -1.0f,	0.0f, 0.0f,
+	 0.5f,  0.5f, -0.5f,   0.0f,  0.0f, -1.0f,	1.0f, 1.0f,
+	 0.5f, -0.5f, -0.5f,   0.0f,  0.0f, -1.0f,	1.0f, 0.0f,
+	 0.5f,  0.5f, -0.5f,   0.0f,  0.0f, -1.0f,	1.0f, 1.0f,
+	-0.5f, -0.5f, -0.5f,   0.0f,  0.0f, -1.0f,	0.0f, 0.0f,
+	-0.5f,  0.5f, -0.5f,   0.0f,  0.0f, -1.0f,	0.0f, 1.0f,
+
+	-0.5f, -0.5f,  0.5f,   0.0f,  0.0f,  1.0f,	0.0f, 0.0f,
+	 0.5f, -0.5f,  0.5f,   0.0f,  0.0f,  1.0f,	1.0f, 0.0f,
+	 0.5f,  0.5f,  0.5f,   0.0f,  0.0f,  1.0f,	1.0f, 1.0f,
+	 0.5f,  0.5f,  0.5f,   0.0f,  0.0f,  1.0f,	1.0f, 1.0f,
+	-0.5f,  0.5f,  0.5f,   0.0f,  0.0f,  1.0f,	0.0f, 1.0f,
+	-0.5f, -0.5f,  0.5f,   0.0f,  0.0f,  1.0f,	0.0f, 0.0f,
+
+	-0.5f,  0.5f,  0.5f,  -1.0f,  0.0f,  0.0f,	1.0f, 0.0f,
+	-0.5f,  0.5f, -0.5f,  -1.0f,  0.0f,  0.0f,	1.0f, 1.0f,
+	-0.5f, -0.5f, -0.5f,  -1.0f,  0.0f,  0.0f,	0.0f, 1.0f,
+	-0.5f, -0.5f, -0.5f,  -1.0f,  0.0f,  0.0f,	0.0f, 1.0f,
+	-0.5f, -0.5f,  0.5f,  -1.0f,  0.0f,  0.0f,	0.0f, 0.0f,
+	-0.5f,  0.5f,  0.5f,  -1.0f,  0.0f,  0.0f,	1.0f, 0.0f,
+
+	 0.5f,  0.5f,  0.5f,   1.0f,  0.0f,  0.0f,	1.0f, 0.0f,
+	 0.5f, -0.5f, -0.5f,   1.0f,  0.0f,  0.0f,	0.0f, 1.0f,
+	 0.5f,  0.5f, -0.5f,   1.0f,  0.0f,  0.0f,	1.0f, 1.0f,
+	 0.5f, -0.5f, -0.5f,   1.0f,  0.0f,  0.0f,	0.0f, 1.0f,
+	 0.5f,  0.5f,  0.5f,   1.0f,  0.0f,  0.0f,	1.0f, 0.0f,
+	 0.5f, -0.5f,  0.5f,   1.0f,  0.0f,  0.0f,	0.0f, 0.0f,
+
+	-0.5f, -0.5f, -0.5f,   0.0f, -1.0f,  0.0f,	0.0f, 1.0f,
+	 0.5f, -0.5f, -0.5f,   0.0f, -1.0f,  0.0f,	1.0f, 1.0f,
+	 0.5f, -0.5f,  0.5f,   0.0f, -1.0f,  0.0f,	1.0f, 0.0f,
+	 0.5f, -0.5f,  0.5f,   0.0f, -1.0f,  0.0f,	1.0f, 0.0f,
+	-0.5f, -0.5f,  0.5f,   0.0f, -1.0f,  0.0f,	0.0f, 0.0f,
+	-0.5f, -0.5f, -0.5f,   0.0f, -1.0f,  0.0f,	0.0f, 1.0f,
+
+	-0.5f,  0.5f, -0.5f,   0.0f,  1.0f,  0.0f,	0.0f, 1.0f,
+	 0.5f,  0.5f,  0.5f,   0.0f,  1.0f,  0.0f,	1.0f, 0.0f,
+	 0.5f,  0.5f, -0.5f,   0.0f,  1.0f,  0.0f,	1.0f, 1.0f,
+	 0.5f,  0.5f,  0.5f,   0.0f,  1.0f,  0.0f,	1.0f, 0.0f,
+	-0.5f,  0.5f, -0.5f,   0.0f,  1.0f,  0.0f,	0.0f, 1.0f,
+	-0.5f,  0.5f,  0.5f,   0.0f,  1.0f,  0.0f,	0.0f, 0.0f,
+
+};
 
 void openglInit()
 {
@@ -158,9 +207,21 @@ int main()
     openglInit();
     glEnable(GL_DEPTH_TEST);
 
+
+	// light cube
+	unsigned int lightVAO, lightVBO;
+	glGenVertexArrays(1, &lightVAO);
+	glGenBuffers(1, &lightVBO);
+	glBindVertexArray(lightVAO);
+	glBindBuffer(GL_ARRAY_BUFFER, lightVBO);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0);
+	glEnableVertexAttribArray(0);
+
     // load shader
     Shader normalMapWall("NormalMapVS.glsl", "NormalMapFS.glsl");
     Shader parallaxMapWall("parallaxMapVS.glsl", "parallaxMapFS.glsl");
+    Shader lightCube("lightcubeVS.glsl", "lightcubeFS.glsl");
 
     // load texture
     unsigned int diffuseNormalMap = loadTexture("resources/brickwall.jpg");
@@ -193,8 +254,8 @@ int main()
         camera->fly(deltaTime);
 
         // change the light's position
-        lightPos.x = static_cast<float>(std::sin(glfwGetTime() * 0.5));
-        lightPos.y = static_cast<float>(std::sin(glfwGetTime() * 0.5));
+		lightPos.x = static_cast<float>(std::sin(glfwGetTime() * 0.5));
+		lightPos.y = static_cast<float>(std::sin(glfwGetTime() * 0.5));
 
         // clear the buff
         glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
@@ -202,13 +263,26 @@ int main()
 
         glm::mat4 view = camera->getViewMatrix();
         glm::mat4 projection = glm::perspective(glm::radians(camera->zoom), (float)windowSize.x / (float)windowSize.y, 0.1f, 100.0f);
+        glm::mat4 model = glm::mat4(1.0f);
+        
+		// light
+		lightCube.use();
+		lightCube.setMat4("projection", projection);
+		lightCube.setMat4("view", view);
+		model = glm::translate(model, lightPos);
+		model = glm::scale(model, glm::vec3(0.05f));
+		lightCube.setMat4("model", model);
+		glBindVertexArray(lightVAO);
+		glDrawArrays(GL_TRIANGLES, 0, 36);
+
+        // normal mapping
         normalMapWall.use();
         normalMapWall.setMat4("view", view);
         normalMapWall.setMat4("projection", projection);
         // render normal-mapped quad
-        glm::mat4 model = glm::mat4(1.0f);
         // Rotates the quad to show normal mapping works in all directions
-        //model = glm::rotate(model, (GLfloat)glfwGetTime(), glm::normalize(glm::vec3(1.0, 0.0, 1.0))); 
+        model = glm::mat4(1.0f);
+		model = glm::translate(model, glm::vec3(-1.0f, 0.0f, 0.0f));
         normalMapWall.setMat4("model", model);
         normalMapWall.setVec3("viewPos", camera->position);
         normalMapWall.setVec3("lightPos", lightPos);
@@ -217,17 +291,30 @@ int main()
         glActiveTexture(GL_TEXTURE1);
         glBindTexture(GL_TEXTURE_2D, normalNormalMap);
         RenderQuad();
-        
-		// render light source (simply re-renders a smaller plane at the light's position for debugging/visualization)
-		//model = glm::mat4();
-		//model = glm::translate(model, lightPos);
-		//model = glm::scale(model, glm::vec3(0.1f));
-        //normalMapWall.setMat4("model", model);
-        //RenderQuad();
+       
+        // parallax mapping
+        parallaxMapWall.use();
+        model = glm::mat4(1.0f);
+        model = glm::translate(model, glm::vec3(1.5f, 0.0f, 0.0f));
+		parallaxMapWall.setMat4("model", model);
+		parallaxMapWall.setMat4("view", view);
+		parallaxMapWall.setMat4("projection", projection);
+		parallaxMapWall.setVec3("viewPos", camera->position);
+		parallaxMapWall.setVec3("lightPos", lightPos);
+		parallaxMapWall.setFloat("heightScale", heightScale);
+		glActiveTexture(GL_TEXTURE0);
+		glBindTexture(GL_TEXTURE_2D, diffuseParallaxMap);
+		glActiveTexture(GL_TEXTURE1);
+		glBindTexture(GL_TEXTURE_2D, normalParallaxMap);
+		glActiveTexture(GL_TEXTURE2);
+        glBindTexture(GL_TEXTURE_2D, heightParallaxMap);
+        RenderQuad();
 
-		glfwSwapBuffers(window);
+        glfwSwapBuffers(window);
 		glfwPollEvents();
     }
+	glDeleteVertexArrays(1, &lightVAO);
+	glDeleteBuffers(1, &lightVBO);
 
     glfwTerminate();
     return 0;

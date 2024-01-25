@@ -149,7 +149,7 @@
     </ClCompile>
     <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="Model.cpp" />
-    <ClCompile Include="NormalMap.cpp">
+    <ClCompile Include="Normal&amp;ParallaxMap.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
@@ -213,6 +213,8 @@
     <None Include="modelVS.glsl" />
     <None Include="NormalMapFS.glsl" />
     <None Include="NormalMapVS.glsl" />
+    <None Include="parallaxMapFS.glsl" />
+    <None Include="parallaxMapVS.glsl" />
     <None Include="planeFS.glsl" />
     <None Include="planeVS.glsl" />
     <None Include="pointShadowDepthFS.glsl" />
