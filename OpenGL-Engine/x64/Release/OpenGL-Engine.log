@@ -1,11 +1,40 @@
-﻿  Normal&ParallaxMap.cpp
-E:\myObj\OpenGL-Engine\OpenGL-Engine\Normal&ParallaxMap.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+﻿  HDR&Bloom.cpp
 E:\myObj\OpenGL-Engine\OpenGL-Engine\Camera.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  (编译源文件“Normal&ParallaxMap.cpp”)
+  (编译源文件“HDR&Bloom.cpp”)
   
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(218,70): warning C4244: “参数”: 从“T”转换到“GLsizei”，可能丢失数据
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(218,70): warning C4244:         with
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(218,70): warning C4244:         [
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(218,70): warning C4244:             T=float
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(218,70): warning C4244:         ]
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(218,56): warning C4244: “参数”: 从“T”转换到“GLsizei”，可能丢失数据
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(218,56): warning C4244:         with
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(218,56): warning C4244:         [
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(218,56): warning C4244:             T=float
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(218,56): warning C4244:         ]
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(230,85): warning C4244: “参数”: 从“T”转换到“GLsizei”，可能丢失数据
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(230,85): warning C4244:         with
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(230,85): warning C4244:         [
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(230,85): warning C4244:             T=float
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(230,85): warning C4244:         ]
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(230,71): warning C4244: “参数”: 从“T”转换到“GLsizei”，可能丢失数据
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(230,71): warning C4244:         with
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(230,71): warning C4244:         [
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(230,71): warning C4244:             T=float
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(230,71): warning C4244:         ]
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(249,70): warning C4244: “参数”: 从“T”转换到“GLsizei”，可能丢失数据
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(249,70): warning C4244:         with
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(249,70): warning C4244:         [
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(249,70): warning C4244:             T=float
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(249,70): warning C4244:         ]
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(249,56): warning C4244: “参数”: 从“T”转换到“GLsizei”，可能丢失数据
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(249,56): warning C4244:         with
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(249,56): warning C4244:         [
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(249,56): warning C4244:             T=float
+E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp(249,56): warning C4244:         ]
   正在生成代码
-  0 of 487 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+  1 of 547 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    6 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
   OpenGL-Engine.vcxproj -> E:\myObj\OpenGL-Engine\x64\Release\OpenGL-Engine.exe

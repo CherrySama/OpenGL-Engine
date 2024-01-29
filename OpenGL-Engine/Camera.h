@@ -63,6 +63,9 @@ public:
 	// blinn
 	bool blinn;
 	bool blinnKeyPressed;
+	// hdr
+	bool hdr;
+	bool hdrKeyPressed;
 
 	// constructor
 	Camera(glm::vec3 pos, glm::vec3 worldup, float pitch_ = PITCH, float yaw_ = YAW);

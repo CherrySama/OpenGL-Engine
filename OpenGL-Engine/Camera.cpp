@@ -18,6 +18,8 @@ Camera::Camera(glm::vec3 pos, glm::vec3 worldup, float pitch_ , float yaw_ )
 	gravity = -GRAVITY;
 	blinn = false;
 	blinnKeyPressed = false;
+	hdr = false;
+	hdrKeyPressed = false;
 
 	updateCameraPos();
 }
@@ -151,7 +153,13 @@ void Camera::fly(float deltaTime)
 	}
 	if (glfwGetKey(this->window, GLFW_KEY_B) == GLFW_RELEASE)
 		blinnKeyPressed = false;
-
+	if (glfwGetKey(this->window, GLFW_KEY_H) == GLFW_PRESS && !hdrKeyPressed)
+	{
+		hdr = !hdr;
+		hdrKeyPressed = true;
+	}
+	if (glfwGetKey(this->window, GLFW_KEY_H) == GLFW_RELEASE)
+		hdrKeyPressed = false;
 	
 
 	checkCollision();

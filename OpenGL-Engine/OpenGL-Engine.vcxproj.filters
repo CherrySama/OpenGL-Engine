@@ -48,6 +48,12 @@
     <ClCompile Include="Normal&amp;ParallaxMap.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="HDR&amp;Bloom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="smallpt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h">
@@ -151,5 +157,16 @@
     <None Include="NormalMapFS.glsl" />
     <None Include="parallaxMapVS.glsl" />
     <None Include="parallaxMapFS.glsl" />
+    <None Include="hdrVS.glsl" />
+    <None Include="hdrFS.glsl" />
+    <None Include="lightingVS.glsl" />
+    <None Include="lightingFS.glsl" />
+    <None Include="bloomVS.glsl" />
+    <None Include="bloomFS.glsl" />
+    <None Include="bloomBrightColorFS.glsl" />
+    <None Include="bloomBlurVS.glsl" />
+    <None Include="bloomBlurFS.glsl" />
+    <None Include="bloomBlendVS.glsl" />
+    <None Include="bloomBlendFS.glsl" />
   </ItemGroup>
 </Project>
