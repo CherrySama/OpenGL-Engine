@@ -27,9 +27,6 @@
     <ClCompile Include="Shader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Model.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -54,15 +51,15 @@
     <ClCompile Include="smallpt.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="skeletalAnimation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Shader.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Model.h">
@@ -168,5 +165,7 @@
     <None Include="bloomBlurFS.glsl" />
     <None Include="bloomBlendVS.glsl" />
     <None Include="bloomBlendFS.glsl" />
+    <None Include="animateVS.glsl" />
+    <None Include="animateFS.glsl" />
   </ItemGroup>
 </Project>

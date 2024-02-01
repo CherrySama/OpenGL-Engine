@@ -7,7 +7,7 @@
 #include <vector>
 #include "Shader.h"
 
-#define MAX_BONE_INFLUENCE 4
+#define MAX_BONE_INFLUENCE 200
 
 struct Vertex {
     // position

@@ -1,7 +1,6 @@
 C:\MyToolKit\glad\src\glad.c;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\glad.obj
 E:\myObj\OpenGL-Engine\OpenGL-Engine\Camera.cpp;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\Camera.obj
-E:\myObj\OpenGL-Engine\OpenGL-Engine\HDR&Bloom.cpp;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\HDR&Bloom.obj
 E:\myObj\OpenGL-Engine\OpenGL-Engine\Mesh.cpp;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\Mesh.obj
 E:\myObj\OpenGL-Engine\OpenGL-Engine\Model.cpp;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\Model.obj
-E:\myObj\OpenGL-Engine\OpenGL-Engine\Player.cpp;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\Player.obj
 E:\myObj\OpenGL-Engine\OpenGL-Engine\Shader.cpp;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\Shader.obj
+E:\myObj\OpenGL-Engine\OpenGL-Engine\skeletalAnimation.cpp;E:\myObj\OpenGL-Engine\OpenGL-Engine\x64\Release\skeletalAnimation.obj

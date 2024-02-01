@@ -12,6 +12,8 @@
 #include <iostream>
 #include <map>
 #include <vector>
+#include <learnopengl/assimp_glm_helpers.h>
+#include <learnopengl/animdata.h>
 #include "Mesh.h"
 #include "Shader.h"
 
