@@ -25,14 +25,14 @@
  
  // default camera settings
  const float YAW			= -90.0f;
- const float PITCH		= 0.0f;
- const float SPEED		= 15.0f;
- const float SENSITIVITY = 0.05f;
- const float ZOOM		= 45.0f;
- const float JUMPTIME    = 0.1f;
- const float GRAVITY		= 4.9f;
- const float JUMPACCELER = 30.0f;
- const float EYEHEIGHT   = 5.f;
+ const float PITCH		    = 0.0f;
+ const float SPEED		    = 15.0f;
+ const float SENSITIVITY    = 0.05f;
+ const float ZOOM		    = 45.0f;
+ const float JUMPTIME       = 0.1f;
+ const float GRAVITY	 	= 4.9f;
+ const float JUMPACCELER    = 30.0f;
+ const float EYEHEIGHT      = 5.f;
  
  class Camera
  {

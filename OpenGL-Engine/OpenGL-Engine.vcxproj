@@ -213,10 +213,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="skeletalAnimation.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="smallpt.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -224,6 +224,13 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="deferred_shading.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SSAO.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
@@ -263,6 +270,12 @@
     <None Include="bloomVS.glsl" />
     <None Include="debug_quad_depthFS.glsl" />
     <None Include="debug_quad_depthVS.glsl" />
+    <None Include="deferred_shading.frag" />
+    <None Include="deferred_shading.vert" />
+    <None Include="deferred_shading_cubes.frag" />
+    <None Include="deferred_shading_cubes.vert" />
+    <None Include="gBuffer.frag" />
+    <None Include="gBuffer.vert" />
     <None Include="hdrFS.glsl" />
     <None Include="hdrVS.glsl" />
     <None Include="lightcubeFS.glsl" />
@@ -291,6 +304,12 @@
     <None Include="shadowMappingVS.glsl" />
     <None Include="skyboxFS.glsl" />
     <None Include="skyboxVS.glsl" />
+    <None Include="ssao.frag" />
+    <None Include="ssao.vert" />
+    <None Include="ssao_blur.frag" />
+    <None Include="ssao_geometry.frag" />
+    <None Include="ssao_geometry.vert" />
+    <None Include="ssao_lighting.frag" />
     <None Include="stencilFS.glsl" />
     <None Include="stencilVS.glsl" />
   </ItemGroup>

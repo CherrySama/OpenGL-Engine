@@ -204,8 +204,7 @@ int main()
 	//	std::cout << "Framebuffer not complete!" << std::endl;
 	//glBindFramebuffer(GL_FRAMEBUFFER, 0);
 
-	   // configure (floating point) framebuffers
-	// ---------------------------------------
+	// configure (floating point) framebuffers
 	unsigned int hdrFBO;
 	glGenFramebuffers(1, &hdrFBO);
 	glBindFramebuffer(GL_FRAMEBUFFER, hdrFBO);
