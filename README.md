@@ -1,5 +1,4 @@
-# OpenGL-Engine
-
+# OpenGLFramework
 基于OpenGL实现的各种demo以记录自己的学习过程，代码包含各种基础算法与相应的注释，如人物基础的移动、phong-blinn光照模型、shadow mapping、Skeletal Animation等。 
 ## 😎About Author 
    Yinghao He, a graduated student from the North University of China. 
