@@ -4,7 +4,7 @@
    Yinghao He, a graduated student from the North University of China. 
 ## Example
 ### animation 
-![animation](https://raw.githubusercontent.com/CherrySama/OpenGL-Engine/main/images/animation.gif) 
+![animation](https://github.com/CherrySama/OpenGLFramework/blob/main/images/animation.gif) 
 ### Phong-Blinn 
 #### Phong-Blinn Model
 ![img](https://raw.githubusercontent.com/CherrySama/OpenGL-Engine/main/images/phong_blinn.jpg) 
