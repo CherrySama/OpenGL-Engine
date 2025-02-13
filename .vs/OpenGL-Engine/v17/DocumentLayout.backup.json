@@ -5,34 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\skeletalAnimation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\skeletalAnimation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\SSAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\SSAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao_lighting.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\ssao_lighting.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao_blur.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\ssao_blur.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\ssao.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao_geometry.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\ssao_geometry.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao_geometry.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\ssao_geometry.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\ssao.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,94 +28,10 @@
               "RelativeDocumentMoniker": "OpenGL-Engine\\skeletalAnimation.cpp",
               "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\skeletalAnimation.cpp",
               "RelativeToolTip": "OpenGL-Engine\\skeletalAnimation.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-29T22:44:21.112Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ssao_geometry.frag",
-              "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao_geometry.frag",
-              "RelativeDocumentMoniker": "OpenGL-Engine\\ssao_geometry.frag",
-              "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao_geometry.frag",
-              "RelativeToolTip": "OpenGL-Engine\\ssao_geometry.frag",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-02-23T08:44:42.931Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ssao_geometry.vert",
-              "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao_geometry.vert",
-              "RelativeDocumentMoniker": "OpenGL-Engine\\ssao_geometry.vert",
-              "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao_geometry.vert",
-              "RelativeToolTip": "OpenGL-Engine\\ssao_geometry.vert",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-02-23T08:44:28.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ssao.frag",
-              "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao.frag",
-              "RelativeDocumentMoniker": "OpenGL-Engine\\ssao.frag",
-              "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao.frag",
-              "RelativeToolTip": "OpenGL-Engine\\ssao.frag",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-02-23T08:29:19.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ssao.vert",
-              "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao.vert",
-              "RelativeDocumentMoniker": "OpenGL-Engine\\ssao.vert",
-              "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao.vert",
-              "RelativeToolTip": "OpenGL-Engine\\ssao.vert",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-02-23T08:29:12.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SSAO.cpp",
-              "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\SSAO.cpp",
-              "RelativeDocumentMoniker": "OpenGL-Engine\\SSAO.cpp",
-              "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\SSAO.cpp",
-              "RelativeToolTip": "OpenGL-Engine\\SSAO.cpp",
-              "ViewState": "AgIAAE8BAAAAAAAAAAAgwGUBAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-02-23T06:56:21.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ssao_blur.frag",
-              "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao_blur.frag",
-              "RelativeDocumentMoniker": "OpenGL-Engine\\ssao_blur.frag",
-              "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao_blur.frag",
-              "RelativeToolTip": "OpenGL-Engine\\ssao_blur.frag",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-02-23T08:44:55.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ssao_lighting.frag",
-              "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao_lighting.frag",
-              "RelativeDocumentMoniker": "OpenGL-Engine\\ssao_lighting.frag",
-              "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\ssao_lighting.frag",
-              "RelativeToolTip": "OpenGL-Engine\\ssao_lighting.frag",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-02-23T08:45:10.25Z"
             }
           ]
         }
