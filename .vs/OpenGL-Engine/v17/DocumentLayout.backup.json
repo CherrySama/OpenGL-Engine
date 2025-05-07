@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "E:\\myObj\\OpenGL-Engine\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Blinn-Phong.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\Blinn-Phong.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\skeletalAnimation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\skeletalAnimation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\Mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\smallpt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\smallpt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\Model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3DE443A2-830E-4890-A0F0-184430CF6C46}|OpenGL-Engine\\OpenGL-Engine.vcxproj|solutionrelative:OpenGL-Engine\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +50,100 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "skeletalAnimation.cpp",
               "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\skeletalAnimation.cpp",
               "RelativeDocumentMoniker": "OpenGL-Engine\\skeletalAnimation.cpp",
               "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\skeletalAnimation.cpp",
               "RelativeToolTip": "OpenGL-Engine\\skeletalAnimation.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAUwGcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-29T22:44:21.112Z",
+              "WhenOpened": "2025-02-16T17:12:00.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mesh.cpp",
+              "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Mesh.cpp",
+              "RelativeDocumentMoniker": "OpenGL-Engine\\Mesh.cpp",
+              "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Mesh.cpp",
+              "RelativeToolTip": "OpenGL-Engine\\Mesh.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAADgvxEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-15T19:26:32.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Camera.cpp",
+              "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Camera.cpp",
+              "RelativeDocumentMoniker": "OpenGL-Engine\\Camera.cpp",
+              "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Camera.cpp",
+              "RelativeToolTip": "OpenGL-Engine\\Camera.cpp",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAK0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-15T17:52:02.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "smallpt.cpp",
+              "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\smallpt.cpp",
+              "RelativeDocumentMoniker": "OpenGL-Engine\\smallpt.cpp",
+              "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\smallpt.cpp",
+              "RelativeToolTip": "OpenGL-Engine\\smallpt.cpp",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-15T15:49:01.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model.h",
+              "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Model.h",
+              "RelativeDocumentMoniker": "OpenGL-Engine\\Model.h",
+              "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Model.h",
+              "RelativeToolTip": "OpenGL-Engine\\Model.h",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-15T15:37:25.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model.cpp",
+              "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Model.cpp",
+              "RelativeDocumentMoniker": "OpenGL-Engine\\Model.cpp",
+              "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Model.cpp",
+              "RelativeToolTip": "OpenGL-Engine\\Model.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-15T15:33:13.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mesh.h",
+              "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Mesh.h",
+              "RelativeDocumentMoniker": "OpenGL-Engine\\Mesh.h",
+              "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Mesh.h",
+              "RelativeToolTip": "OpenGL-Engine\\Mesh.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-15T15:32:25.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Blinn-Phong.cpp",
+              "DocumentMoniker": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Blinn-Phong.cpp",
+              "RelativeDocumentMoniker": "OpenGL-Engine\\Blinn-Phong.cpp",
+              "ToolTip": "E:\\myObj\\OpenGL-Engine\\OpenGL-Engine\\Blinn-Phong.cpp*",
+              "RelativeToolTip": "OpenGL-Engine\\Blinn-Phong.cpp*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-15T15:48:22.472Z",
               "EditorCaption": ""
             }
           ]

@@ -1,67 +1,12 @@
-﻿  Camera.cpp
-E:\myObj\OpenGL-Engine\OpenGL-Engine\Camera.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+﻿  Model.cpp
+  SceneRenderer.cpp
+E:\myObj\OpenGL-Engine\OpenGL-Engine\SceneRenderer.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
 E:\myObj\OpenGL-Engine\OpenGL-Engine\Camera.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  (编译源文件“Camera.cpp”)
+  (编译源文件“SceneRenderer.cpp”)
   
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,9): warning C4005: “APIENTRY”: 宏重定义
-  (编译源文件“Camera.cpp”)
-      E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\glad\glad.h(32,9):
-      参见“APIENTRY”的前一个定义
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\Camera.cpp(67,46): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-E:\myObj\OpenGL-Engine\OpenGL-Engine\Camera.cpp(68,48): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-  Mesh.cpp
-  Model.cpp
-  Shader.cpp
-  skeletalAnimation.cpp
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\bone.h(54,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-  (编译源文件“skeletalAnimation.cpp”)
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\bone.h(65,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-  (编译源文件“skeletalAnimation.cpp”)
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\bone.h(76,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-  (编译源文件“skeletalAnimation.cpp”)
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\model_animation.h(175,37): warning C4018: “<”: 有符号/无符号不匹配
-  (编译源文件“skeletalAnimation.cpp”)
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\animation.h(31,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-  (编译源文件“skeletalAnimation.cpp”)
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\animation.h(32,31): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-  (编译源文件“skeletalAnimation.cpp”)
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\animation.h(37,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  (编译源文件“skeletalAnimation.cpp”)
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\animation.h(53,44): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
-  (编译源文件“skeletalAnimation.cpp”)
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\animation.h(95,21): warning C4018: “<”: 有符号/无符号不匹配
-  (编译源文件“skeletalAnimation.cpp”)
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\animator.h(46,23): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
-  (编译源文件“skeletalAnimation.cpp”)
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\animator.h(47,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  (编译源文件“skeletalAnimation.cpp”)
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\animator.h(51,95): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-  (编译源文件“skeletalAnimation.cpp”)
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\animator.h(119,56): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-  (编译源文件“skeletalAnimation.cpp”)
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\Camera.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  (编译源文件“skeletalAnimation.cpp”)
-  
-E:\myObj\OpenGL-Engine\OpenGL-Engine\skeletalAnimation.cpp(81,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-  glad.c
   正在生成代码
-  Previous IPDB was built with incompatible compiler, fall back to full compilation.
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\bone.h(125): warning C4715: “Bone::GetRotationIndex”: 不是所有的控件路径都返回值
-E:\myObj\OpenGL-Engine\OpenGL-Engine\dependence\includes\learnopengl\bone.h(135): warning C4715: “Bone::GetScaleIndex”: 不是所有的控件路径都返回值
-  All 1398 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  447 of 886 functions (50.5%) were compiled, the rest were copied from previous compilation.
+    56 functions were new in current compilation
+    83 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
   OpenGL-Engine.vcxproj -> E:\myObj\OpenGL-Engine\x64\Release\OpenGL-Engine.exe
